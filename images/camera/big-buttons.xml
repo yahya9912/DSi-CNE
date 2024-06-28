@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="big-buttons.png">
+	<!-- Created with Adobe Animate version 21.0.3.38773 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="album0000" x="0" y="0" width="107" height="95"/>
+	<SubTexture name="album select0000" x="108" y="0" width="105" height="93"/>
+	<SubTexture name="camera0000" x="0" y="96" width="107" height="95"/>
+	<SubTexture name="camera select0000" x="108" y="96" width="105" height="93"/>
+</TextureAtlas>
