@@ -17,28 +17,19 @@ function create(){
 	bg = new FlxSprite().loadGraphic(Paths.image('shop/bg'));
 	add(bg);
 
-	text = new FlxSprite().loadGraphic(Paths.image('shop/warningText'));
-	text.y = 191;
+	text = new FlxSprite(0, 191).loadGraphic(Paths.image('shop/warningText'));
 	add(text);
 
-	exit = new FlxSprite().loadGraphic(Paths.image('shop/exit'));
-	exit.y = 345;
+	exit = new FlxSprite(0, 345).loadGraphic(Paths.image('shop/exit'));
 	exit.screenCenter(FlxAxes.X);
 	add(exit);
 	
-	exit1 = new FlxSprite().loadGraphic(Paths.image('shop/exitS'));
+	exit1 = new FlxSprite(0, 343).loadGraphic(Paths.image('shop/exitS'));
 	exit1.alpha = 0;
-	exit1.y = 343;
 	exit1.screenCenter(FlxAxes.X);
 	add(exit1);
 	
-	
-
-
-	troph = new FlxSprite().loadGraphic(Paths.image('battery'));
-    //troph.scale.set(1, 1);
-    troph.x = 235;
-	troph.y = 7;
+	troph = new FlxSprite(235, 7).loadGraphic(Paths.image('battery'));
     add(troph);
 
 

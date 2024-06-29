@@ -11,12 +11,11 @@ import funkin.editors.EditorPicker;
 import funkin.menus.ModSwitchMenu;
 import funkin.options.OptionsMenu;
 
-var fard:CustomShader;
 var menuItems:FlxTypedGroup<FlxSprite> = new FlxTypedGroup();
 var curSelected:Int = 0;
 var portVer:Int = 0.1;
 
-var menuNames = ["settings", "cart" "camera", "sound", "sudoku"];
+var menuNames = ["settings", "cart" "camera", "sound", "shop"];
 
 DiscordUtil.changePresence("In the DSi Home Menu", null);
 window.title = "Nintendo DSi";
@@ -47,7 +46,13 @@ function create(){
 	add(vol);
 
 	notif = new FlxSprite(3, 197).loadGraphic(Paths.image("bubble"));
+	notif.alpha = 0;
 	add(notif);
+
+	new FlxTimer().start(.8, function(){ //you gotta wait so you can select stuffies :3
+		canSelect = true;
+		FlxTween.tween(notif, {alpha: 1}, .1);
+	});
 	
 	arrL = new FlxSprite(0, 365).loadGraphic(Paths.image("arrowleft"));
     add(arrL);
