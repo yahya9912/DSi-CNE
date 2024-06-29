@@ -35,57 +35,38 @@ function create(){
 	bg = new FlxSprite().loadGraphic(Paths.image('bg'));
 	add(bg);
 
-	settings = new FlxSprite().loadGraphic(Paths.image('icons/settings'));
+	settings = new FlxSprite(103, 283).loadGraphic(Paths.image('icons/settings'));
 	add(settings);
-	settings.x = 103;
-	settings.y = 283;
 	
-	playbutt = new FlxSprite().loadGraphic(Paths.image('buttonplay'));
+	playbutt = new FlxSprite(0, 275).loadGraphic(Paths.image('buttonplay'));
 	playbutt.screenCenter(FlxAxes.X);
 	add(playbutt);
-	playbutt.y = 275;
 
 
-	vol = new FlxSprite().loadGraphic(Paths.image('volume'));
-	vol.y = 7; 
-	vol.x = 4;
+	vol = new FlxSprite(7,4).loadGraphic(Paths.image('volume'));
 	add(vol);
 
-	notif = new FlxSprite().loadGraphic(Paths.image("bubble"));
-	notif.x = 3;
-	notif.y = 197;
+	notif = new FlxSprite(3, 197).loadGraphic(Paths.image("bubble"));
 	add(notif);
-	//notif.y = 183 = 678;
 	
-	arrL = new FlxSprite().loadGraphic(Paths.image("arrowleft"));
-    //bg.colorTransform.color = 0xFFFFFFFF;
-    arrL.scale.set(1, 1);
+	arrL = new FlxSprite(0, 365).loadGraphic(Paths.image("arrowleft"));
     add(arrL);
-	arrL.y = 365;
 
-	arrR = new FlxSprite().loadGraphic(Paths.image("arrowright"));
-    //bg.colorTransform.color = 0xFFFFFFFF;
-    arrR.scale.set(1, 1);
+	arrR = new FlxSprite(365, 237).loadGraphic(Paths.image("arrowright"));
     add(arrR);
-	arrR.y = 365;
-	arrR.x = 237;
 
 	fard = new CustomShader("fart");
     //FlxG.camera.addShader(fard);
 
-	troph = new FlxSprite().loadGraphic(Paths.image('battery'));
-    //troph.scale.set(1, 1);
-    troph.x = 235;
-	troph.y = 7;
-    add(troph);
+	battery = new FlxSprite(235, 7).loadGraphic(Paths.image('battery'));
+    add(battery);
 
 	versionShit = new FunkinText(4, FlxG.height, 0, 'WORK IN PROGRESS | Nintendo DSi');
 	versionShit.y -= versionShit.height + 22;
 	add(versionShit);
 
-	usertext = new FunkinText(4, FlxG.height, 0, 'Yahya :3');
+	usertext = new FunkinText(28, FlxG.height, 0, 'Yahya :3');
 	usertext.y -= usertext.height + 365;
-	usertext.x = 28;
 	add(usertext);
 }
 
@@ -95,11 +76,8 @@ function update(elapsed:Float) {
 	if (FlxG.keys.justPressed.FOUR) FlxG.switchState(new ModState("DSi/shop"));
 	//if (FlxG.keys.justPressed.SIX) FlxG.switchState(new Freeplay());
 
-	if (controls.LEFT_P)
-		changeItem(-1);
-	
-	if (controls.RIGHT_P)
-		changeItem(1);
+	if (controls.LEFT_P)  changeItem(-1);
+	if (controls.RIGHT_P) changeItem(1);
 	
 	if (controls.BACK){
 		FlxG.switchState(new MainMenuState());
@@ -122,10 +100,7 @@ function update(elapsed:Float) {
 		openSubState(new ModSwitchMenu());
 	}
 
-	if (controls.ACCEPT)
-	{
-		selectItem();
-	}
+	if (controls.ACCEPT) selectItem();
 
 }
 
