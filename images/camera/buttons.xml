@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="buttons.png">
-	<!-- Created with Adobe Animate version 21.0.3.38773 -->
-	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="calendar0000" x="0" y="0" width="96" height="26"/>
 	<SubTexture name="calendar select0000" x="97" y="0" width="96" height="24"/>
 	<SubTexture name="exit0000" x="0" y="27" width="80" height="26"/>

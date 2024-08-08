@@ -1,177 +1,149 @@
 <trophies>
-	<trophy name="System Settings"
+	<app name="System Settings"
 		type="settings"
-		cred="Earn all the below me cuz yes,,.,.,,..,"
+		cred=""
 		icon="settings"
 	/>
 
-	<trophy name="Game Card"
+	<app name="Game Card"
 		type="card"
-		rol_es="Director, Artista y Artista Pixel"
-		cred="Because of him the mod was delayed 2 years (Didn't you hear the song?)"
-		icon="placeholder"
+		cred=""
+		icon="cartridge"
 		/> 
 
-	<trophy name="Nintendo DSi Camera"
+	<app name="Nintendo DSi Camera"
 		type="camera"
-		rol_es="Director, Musico, Diseñador de SFX, Actor de Voz (Lasagna Boy y Gorefield), Artista Pixel y Charter"
 		cred="Nintendo"
 		icon="camera" />
 
-	<trophy name="Nintendo DSi Sound"
+	<app name="Nintendo DSi Sound"
 		type="sound"
-		desc="Get every one of your friends to finally beat THE VOID."
-		icon="tic"
-	/>
+		cred="Nintendo"
+		icon="sound"/>
 
-	<trophy name="Ordinary Rapping"
+	<app name="Freeplay"
 		type="silver"
-		desc="Find and play the secret Adrenaline."
-		icon="silverhawk ppsspp"
-	/>
+		cred="Codename Engine"
+		icon="emptyass"/>
 
-	<trophy name="I WILL EAT YOUR CURSOR"
-		type="silver" 
-		desc="Click the little Ba3oos in Pies Gigantes."
-		icon="purpgigantes"/>
-		<!-- trophy type is kinda hot -->
+	<app name="Nintendo DSi Shop"
+		type="shop" 
+		cred="Nintendo"
+		icon="emptyass"/>
 
-	<trophy name="Aced!"
+	<app name="Aced!"
 		type="silver"
-		desc="Complete a song without missing a single note."
-		icon="acelevel"
-	/>
+		cred=""
+		icon="emptyass"/>
 
-	<trophy name="ZeuzMoons"
+	<app name="ZeuzMoons"
 		type="Artist and Pixel Artist"
-		desc="I saved pixel art, this one goes for you Guiller"
-		icon="placeholder"
-	/>
+		desc=""
+		icon="emptyass"/>
 
-	<trophy name="Lunar Cleint"
+	<app name="Lunar Cleint"
 		type="Main Coder"
-		desc="hi guys its me lunar de Todos los Tiempos (Messi)"
-		icon="placeholder"
-	/>
+		desc=""
+		icon="emptyass"/>
 
-	<trophy name="Lean"
+	<app name="Lean"
 		type="Coder, Musician, SFX Designer"
-		rol_es="Coder, Musico, Diseñador de SFX"
 		desc="ummmm yeah i coded a lot for the mod"
-		icon="placeholder"
-		social_link="https://twitter.com/NewLeandapper"/>
+		icon="emptyass"/>
 
-	<trophy name="EstoyAburridow"
+	<app name="EstoyAburridow"
 		type="Coder"
-		rol_es="Coder"
 		desc="Play Celeste"
-		icon="placeholder"
-		social_link="https://twitter.com/EstoyAburridop"/>
+		icon="emptyass"/>
 
-	<trophy name="Ne_Eo"
+	<app name="Ne_Eo"
 		type="Coder"
-		rol_es="Coder"
 		desc="Why is the menu not centered?"
-		icon="placeholder"
-		social_link="https://twitter.com/Ne_Eo_Twitch"/>
+		icon="emptyass"/>
 
-	<trophy name="Nex_s'"
+	<app name="Nex_s'"
 		type="Musician"
-		rol_es="Musico"
 		desc="I'm an expert on UT songs., licensed"
-		icon="placeholder"
-		social_link="https://twitter.com/Nexus_Moon7"/>
+		icon="emptyass"/>
 
-	<trophy name="AlexR"
+	<app name="AlexR"
 		type="Musician"
-		rol_es="Musico"
 		desc="The one who died (He never came back and I don't know what he's doing here)"
-		icon="placeholder"
-		social_link="https://twitter.com/22Alexr"/>
+		icon="emptyass"/>
 
-	<trophy name="Awe"
+	<app name="Awe"
 		type="Musician"
-		rol_es="Musico"
 		desc="Is a fan of Steven Universe? (Roses and Quartzs = Rose Quartz)"
-		icon="placeholder"
-	/>
+		icon="emptyass"/>
 
-	<trophy name="Deadshot"
+	<app name="Deadshot"
 		type="Charter"
 		rol_es="Charter"
 		desc="He was only going to chart one song and he charted most of the mod."
-		icon="placeholder"
+		icon="emptyass"
 		social_link="https://twitter.com/d3adsh0ter"/>
 
-	<trophy name="Tok"
+	<app name="Tok"
 		type="Charter"
 		rol_es="Charter"
 		desc="If it wasn't for Bitfox redoing the songs 5 times, would had more work to do."
-		icon="placeholder"
+		icon="emptyass"
 		social_link="https://twitter.com/ThatOne_Kid39"/>
 
-	<trophy name="Trevent"
+	<app name="Trevent"
 		type="Charter"
 		rol_es="Charter"
 		desc="Arrived to save Deadshot from his deathbed"
-		icon="placeholder"
+		icon="emptyass"
 		social_link="https://twitter.com/BoohTrevent"/>
 
-	<trophy name="KingFox"
+	<app name="KingFox"
 		type="Voice Actor (Godfield and Psychopathic Jon)"
 		rol_es="Actor de Voz (Godfield y Jon Psicopata)"
 		desc="The guy who did almost all the voices in Inner Mirror (Play Inner Mirror)"
-		icon="placeholder"
+		icon="emptyass"
 		social_link="https://twitter.com/VOKINGF0X"/>
 
-	<trophy name="SpringXy"
+	<app name="SpringXy"
 		type="Voice Actor (Arlene and Liz)"
 		rol_es="Actor de Voz (Arlene y Liz)"
 		desc="Pilgrim Funk Off, based"
-		icon="placeholder" 
+		icon="emptyass" 
 		social_link="https://twitter.com/SpringXy_1YT"/>
 		<!-- De hecho, se llama "Pilgrim da el funk -EstoyAburridow" -->
 
-	<trophy name="Lumpy Touch"
+	<app name="Lumpy Touch"
 		type="Gorefield Animation Creator"
 		rol_es="Creador de la Animacion de Gorefield"
 		desc="The Lumpiest of Touches"
-		icon="placeholder"
+		icon="emptyass"
 		social_link="https://twitter.com/LumpyTouch"/>
 
-	<trophy name="William Burke"
+	<app name="William Burke"
 		type="Original Gorefield Designer"
 		rol_es="Diseñador Original de Gorefield"
 		desc="The origin of Gorefield (I think)"
-		icon="placeholder"
+		icon="emptyass"
 		social_link="https://www.instagram.com/goblin___warlock/"/>
 
-	<trophy name="Jars Drawings"
+	<app name="Jars Drawings"
 		type="Original Ultra Gorefield Designer"
-		rol_es="Diseñador Original de Ultra Gorefield"
 		desc="Sheesh"
-		icon="placeholder"
-		social_link="https://twitter.com/jars_drawings"/>
+		icon="emptyass"/>
 
-	<trophy name="Omega Black Art"
+	<app name="Omega Black Art"
 		type="Original Ultra Gorefield Designer"
-		rol_es="Diseñador Original de Ultra Gorefield"
 		desc="Omega Art!!!!"
-		icon="placeholder"
-		social_link="https://www.instagram.com/omegablackart/?hl=es"/>
+		icon="emptyass"/>
 
-	<trophy name="Aytanner"
+	<app name="Aytanner"
 		type="Original Mondaylovania Musician"
-		rol_es="Musico Original de Mondaylovania"
 		desc="The Undertale"
-		icon="placeholder"
-		social_link="https://on.soundcloud.com/PSZXo"/>
+		icon="emptyass"/>
 
-	<trophy name="Cartoon Cat Team"
+	<app name="Cartoon Cat Team"
 		type="Cartoon Cat Team"
-		rol_es="Cartoon Cat Team"
 		desc="iTzDaniel456, Samuroarx2, KenethYT, Carlone Wenson, FRANDERMAN123, JSZB, SaVia01, Numberless and SupremeRG"
-		icon="placeholder"
-		social_link="https://twitter.com/CartoonCatFNF"/>
+		icon="emptyass"/>
 
 </trophies>
