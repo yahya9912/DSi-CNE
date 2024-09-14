@@ -101,8 +101,7 @@ function selectItem() {
 
 		var event = event("onSelectItem", EventManager.get(NameEvent).recycle(daChoice));
 		if (event.cancelled) return;
-		switch (daChoice)
-		{
+		switch (daChoice) {
 			case 'exit':   FlxG.switchState(new ModState('DSi/home'));
 			case 'camera': FlxG.switchState(new FreeplayState());
 			case 'calendar': FlxG.switchState(new Trophies());
